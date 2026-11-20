@@ -1,0 +1,1086 @@
+{
+  "CarChoices": [],
+  "UseStrictJSIsolation": false,
+  "EmbeddedJavascript": null,
+  "TestLedsGameData": {
+    "CarModel": null,
+    "CarId": null,
+    "CarChoice": {
+      "CarId": null,
+      "CarModel": null,
+      "GameCode": null,
+      "IsSet": false
+    },
+    "GearEx": -2,
+    "FuelMax": 100.0,
+    "RPMSMax": 10000.0,
+    "TurboMax": 3.5,
+    "TurnIndicatorLeftEnabled": false,
+    "TurnIndicatorRightEnabled": false,
+    "SessionBestDeltaEx": 0.0,
+    "AllTimeBestDeltaEx": 0.0,
+    "DRSEnabled": false,
+    "DRSAvailable": false,
+    "MaxRpm": 10000.0,
+    "GameRunning": true,
+    "Brake": 0.0,
+    "GameName": null,
+    "Fuel": 0.0,
+    "RPMPercent": 45.387755102040813,
+    "RPMRedlineReached": false,
+    "SpeedKmh": 0.0,
+    "SpeedMph": 0.0,
+    "Turbo": 0.0,
+    "TurboPercent": 0.0,
+    "Gear": "R2",
+    "IsInPitLane": false,
+    "PitLimiterOn": false,
+    "AbsEnabled": false,
+    "AbsActive": false,
+    "TCEnabled": false,
+    "TCActive": false,
+    "LowFuelAlert": false,
+    "SpotterCarLeft": false,
+    "SpotterCarRight": false,
+    "BlackFlag": false,
+    "YellowFlag": false,
+    "WhiteFlag": false,
+    "BlueFlag": false,
+    "GreenFlag": false,
+    "CarStartedTime": "2026-01-19T18:16:39.647028-08:00",
+    "SessionBestDelta": 0.0,
+    "AllTimeBestDelta": 0.0
+  },
+  "LedContainers": [
+    {
+      "ClearBackgroundWhenActive": true,
+      "StartPositionXEx": 1,
+      "StartPositionYEx": 1,
+      "LedContainers": [
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": "0,0,Black;0,1,Black;0,2,Black;0,3,#37B4E8;0,4,#37B4E8;0,5,Black;0,6,Black;0,7,Black;1,0,Black;1,1,Black;1,2,#37B4E8;1,3,#37B4E8;1,4,#37B4E8;1,5,#37B4E8;1,6,Black;1,7,Black;2,0,Black;2,1,#37B4E8;2,2,Black;2,3,Black;2,4,Black;2,5,Black;2,6,#37B4E8;2,7,Black;3,0,#37B4E8;3,1,#37B4E8;3,2,Black;3,3,#37B4E8;3,4,Black;3,5,Black;3,6,#37B4E8;3,7,#37B4E8;4,0,#37B4E8;4,1,#37B4E8;4,2,Black;4,3,Black;4,4,Black;4,5,Black;4,6,#37B4E8;4,7,#37B4E8;5,0,Black;5,1,#37B4E8;5,2,Black;5,3,#37B4E8;5,4,#37B4E8;5,5,Black;5,6,#37B4E8;5,7,Black;6,0,Black;6,1,Black;6,2,#37B4E8;6,3,#37B4E8;6,4,#37B4E8;6,5,#37B4E8;6,6,Black;6,7,Black;7,0,Black;7,1,Black;7,2,Black;7,3,#37B4E8;7,4,#37B4E8;7,5,Black;7,6,Black;7,7,Black",
+                "FrameDuration": 2000
+              },
+              {
+                "Colors": "0,0,Black;0,1,Black;0,2,Black;0,3,Black;0,4,Black;0,5,Black;0,6,Black;0,7,Black;1,0,Black;1,1,Black;1,2,Black;1,3,Black;1,4,Black;1,5,Black;1,6,Black;1,7,Black;2,0,Black;2,1,Black;2,2,Black;2,3,Black;2,4,Black;2,5,Black;2,6,Black;2,7,Black;3,0,Black;3,1,Black;3,2,Black;3,3,Black;3,4,Black;3,5,Black;3,6,Black;3,7,Black;4,0,Black;4,1,Black;4,2,Black;4,3,Black;4,4,Black;4,5,Black;4,6,Black;4,7,Black;5,0,Black;5,1,Black;5,2,Black;5,3,Black;5,4,Black;5,5,Black;5,6,Black;5,7,Black;6,0,Black;6,1,Black;6,2,Black;6,3,Black;6,4,Black;6,5,Black;6,6,Black;6,7,Black;7,0,Black;7,1,Black;7,2,Black;7,3,Black;7,4,Black;7,5,Black;7,6,Black;7,7,Black",
+                "FrameDuration": 500
+              }
+            ],
+            "PenColor": "55, 180, 232"
+          },
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "1aab3775-cffb-4d9b-bcc3-86e7f85f160f",
+          "ContainerType": "AnimationContainer",
+          "Description": "Hand drawn animation/pattern",
+          "IsEnabled": false,
+          "DeviceKind": 2
+        },
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": "0,0,#FFFFFF;0,1,#0000FF;0,2,#0000FF;0,3,#0000FF;0,4,#0000FF;0,5,#0000FF;0,6,#0000FF;0,7,#FFFFFF;1,0,#FF0000;1,1,#FFFFFF;1,2,#0000FF;1,3,#FFFFFF;1,4,#FFFFFF;1,5,#0000FF;1,6,#0000FF;1,7,#FFFFFF;2,0,#FF0000;2,1,#FF0000;2,2,#FFFFFF;2,3,#0000FF;2,4,#FFFFFF;2,5,#0000FF;2,6,#FFFFFF;2,7,#0000FF;3,0,#FF0000;3,1,#FF0000;3,2,#FF0000;3,3,#FFFFFF;3,4,#FFFFFF;3,5,#FFFFFF;3,6,#0000FF;3,7,#0000FF;4,0,#FF0000;4,1,#FF0000;4,2,#FF0000;4,3,#FFFFFF;4,4,#FFFFFF;4,5,#FFFFFF;4,6,#0000FF;4,7,#0000FF;5,0,#FF0000;5,1,#FF0000;5,2,#FF0000;5,3,#FFFFFF;5,4,#FFFFFF;5,5,#FFFFFF;5,6,#0000FF;5,7,#0000FF;6,0,#FF0000;6,1,#FF0000;6,2,#FF0000;6,3,#FFFFFF;6,4,#FFFFFF;6,5,#FFFFFF;6,6,#0000FF;6,7,#0000FF;7,0,#FF0000;7,1,#FF0000;7,2,#FF0000;7,3,#FFFFFF;7,4,#FFFFFF;7,5,#FFFFFF;7,6,#0000FF;7,7,#0000FF",
+                "FrameDuration": 1000
+              },
+              {
+                "Colors": "0,0,#FF0000;0,1,#FFFFFF;0,2,#0000FF;0,3,#0000FF;0,4,#0000FF;0,5,#0000FF;0,6,#0000FF;0,7,#FFFFFF;1,0,#FF0000;1,1,#FFFFFF;1,2,#0000FF;1,3,#FFFFFF;1,4,#FFFFFF;1,5,#0000FF;1,6,#0000FF;1,7,#FFFFFF;2,0,#FF0000;2,1,#FF0000;2,2,#FFFFFF;2,3,#0000FF;2,4,#FFFFFF;2,5,#0000FF;2,6,#FFFFFF;2,7,#0000FF;3,0,#FF0000;3,1,#FF0000;3,2,#FF0000;3,3,#FFFFFF;3,4,#FFFFFF;3,5,#FFFFFF;3,6,#0000FF;3,7,#0000FF;4,0,#FF0000;4,1,#FF0000;4,2,#FF0000;4,3,#FFFFFF;4,4,#FFFFFF;4,5,#FFFFFF;4,6,#0000FF;4,7,#0000FF;5,0,#FF0000;5,1,#FF0000;5,2,#FF0000;5,3,#FFFFFF;5,4,#FFFFFF;5,5,#FFFFFF;5,6,#0000FF;5,7,#0000FF;6,0,#FF0000;6,1,#FF0000;6,2,#FF0000;6,3,#FFFFFF;6,4,#FFFFFF;6,5,#FFFFFF;6,6,#0000FF;6,7,#0000FF;7,0,#FF0000;7,1,#FF0000;7,2,#FF0000;7,3,#FFFFFF;7,4,#FFFFFF;7,5,#FFFFFF;7,6,#0000FF;7,7,#0000FF",
+                "FrameDuration": 1000
+              }
+            ],
+            "PenColor": "Blue"
+          },
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "43d462c4-b13a-4323-8be8-dab4e2845ae3",
+          "ContainerType": "AnimationContainer",
+          "Description": "iRacing Logo",
+          "IsEnabled": false,
+          "DeviceKind": 2
+        },
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": "0,0,Red;0,1,Red;0,2,Red;0,3,Red;0,4,Red;0,5,Red;0,6,Red;0,7,Red;1,0,Red;1,7,Red;2,0,Red;2,7,Red;3,0,Red;3,7,Red;4,0,Red;4,7,Red;5,0,Red;5,7,Red;6,0,Red;6,7,Red;7,0,Red;7,1,Red;7,2,Red;7,3,Red;7,4,Red;7,5,Red;7,6,Red;7,7,Red",
+                "FrameDuration": 500
+              },
+              {
+                "Colors": "1,1,Red;1,2,Red;1,3,Red;1,4,Red;1,5,Red;1,6,Red;2,1,Red;2,6,Red;3,1,Red;3,6,Red;4,1,Red;4,6,Red;5,1,Red;5,6,Red;6,1,Red;6,2,Red;6,3,Red;6,4,Red;6,5,Red;6,6,Red",
+                "FrameDuration": 500
+              },
+              {
+                "Colors": "2,2,Red;2,3,Red;2,4,Red;2,5,Red;3,2,Red;3,5,Red;4,2,Red;4,5,Red;5,2,Red;5,3,Red;5,4,Red;5,5,Red",
+                "FrameDuration": 500
+              },
+              {
+                "Colors": "3,3,Red;3,4,Red;4,3,Red;4,4,Red",
+                "FrameDuration": 500
+              },
+              {
+                "Colors": "",
+                "FrameDuration": 500
+              },
+              {
+                "Colors": "3,3,Red;3,4,Red;4,3,Red;4,4,Red",
+                "FrameDuration": 500
+              },
+              {
+                "Colors": "2,2,Red;2,3,Red;2,4,Red;2,5,Red;3,2,Red;3,5,Red;4,2,Red;4,5,Red;5,2,Red;5,3,Red;5,4,Red;5,5,Red",
+                "FrameDuration": 500
+              },
+              {
+                "Colors": "1,1,Red;1,2,Red;1,3,Red;1,4,Red;1,5,Red;1,6,Red;2,1,Red;2,6,Red;3,1,Red;3,6,Red;4,1,Red;4,6,Red;5,1,Red;5,6,Red;6,1,Red;6,2,Red;6,3,Red;6,4,Red;6,5,Red;6,6,Red",
+                "FrameDuration": 500
+              }
+            ],
+            "PenColor": "Red"
+          },
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "386c0211-b50e-4618-9515-f965bb19a82f",
+          "ContainerType": "AnimationContainer",
+          "Description": "Target Animation",
+          "IsEnabled": false,
+          "DeviceKind": 2
+        },
+        {
+          "Animation": {
+            "Columns": 8,
+            "Rows": 8,
+            "Frames": [
+              {
+                "Colors": "0,0,#0000C8;0,1,#0000C8;0,2,Black;0,3,Black;0,4,Black;0,5,Black;0,6,#0000C8;0,7,#0000C8;1,0,#0000C8;1,1,#0000C8;1,2,Black;1,3,Black;1,4,Black;1,5,Black;1,6,#0000C8;1,7,#0000C8;2,0,#0000C8;2,1,#0000C8;2,2,#0000C8;2,3,Black;2,4,Black;2,5,#0000C8;2,6,#0000C8;2,7,#0000C8;3,0,#0000C8;3,1,#962800;3,2,#0000C8;3,3,Black;3,4,Black;3,5,#0000C8;3,6,#962800;3,7,#0000C8;4,0,#0000C8;4,1,#962800;4,2,Black;4,3,#0000C8;4,4,#0000C8;4,5,Black;4,6,#962800;4,7,#0000C8;5,0,#0000C8;5,1,#962800;5,2,Black;5,3,#0000C8;5,4,#0000C8;5,5,Black;5,6,#962800;5,7,#0000C8;6,0,#0000C8;6,1,#962800;6,2,Black;6,3,#0000C8;6,4,#0000C8;6,5,Black;6,6,#962800;6,7,#0000C8;7,0,#0000C8;7,1,#962800;7,2,Black;7,3,Black;7,4,Black;7,5,Black;7,6,#962800;7,7,#962800",
+                "FrameDuration": 1000
+              }
+            ],
+            "PenColor": "15, 4, 0"
+          },
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "0b6cceca-d0f5-4e79-b8ee-ad0c269745fd",
+          "ContainerType": "AnimationContainer",
+          "Description": "MacDat M logo (LED colors)",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        }
+      ],
+      "StartPositionMatrix": 1,
+      "ContainerId": "30d6a83b-a214-45b6-b81a-7ea2861fdae0",
+      "ContainerType": "GameNotRunningGroupContainer",
+      "Description": "Enable content if the game is not running",
+      "IsEnabled": true,
+      "DeviceKind": 2
+    },
+    {
+      "StartPositionXEx": 1,
+      "StartPositionYEx": 1,
+      "LedContainers": [
+        {
+          "FontName": "THICK8x8",
+          "Color": "Blue",
+          "RedlineColor": "Red",
+          "RedlineBlink": true,
+          "RedlineBlinkDelay": 100,
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "d45999f1-bc33-4519-8727-f1906dcb50b7",
+          "ContainerType": "GearContainer",
+          "Description": "Show current gear",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "FontName": "THICK8x8",
+          "Color": "Blue",
+          "RedlineColor": "Red",
+          "RedlineBlink": true,
+          "RedlineBlinkDelay": 100,
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "09378976-646d-4092-90c8-2ebd79f635a2",
+          "ContainerType": "GearContainer",
+          "Description": "Show current gear",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "FlagSettings": [
+            {
+              "Name": "Black",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,White;0,1,White;0,2,White;0,3,White;0,4,White;0,5,White;0,6,White;0,7,White;1,0,White;1,1,Black;1,2,Black;1,3,Black;1,4,Black;1,5,Black;1,6,Black;1,7,White;2,0,White;2,1,Black;2,2,Black;2,3,Black;2,4,Black;2,5,Black;2,6,Black;2,7,White;3,0,White;3,1,Black;3,2,Black;3,3,Black;3,4,Black;3,5,Black;3,6,Black;3,7,White;4,0,White;4,1,Black;4,2,Black;4,3,Black;4,4,Black;4,5,Black;4,6,Black;4,7,White;5,0,White;5,1,Black;5,2,Black;5,3,Black;5,4,Black;5,5,Black;5,6,Black;5,7,White;6,0,White;6,1,Black;6,2,Black;6,3,Black;6,4,Black;6,5,Black;6,6,Black;6,7,White;7,0,White;7,1,White;7,2,White;7,3,White;7,4,White;7,5,White;7,6,White;7,7,White",
+                    "FrameDuration": 300
+                  },
+                  {
+                    "Colors": "0,0,Black;0,1,Black;0,2,Black;0,3,Black;0,4,Black;0,5,Black;0,6,Black;0,7,Black;1,0,Black;1,1,Black;1,2,Black;1,3,Black;1,4,Black;1,5,Black;1,6,Black;1,7,Black;2,0,Black;2,1,Black;2,2,Black;2,3,Black;2,4,Black;2,5,Black;2,6,Black;2,7,Black;3,0,Black;3,1,Black;3,2,Black;3,3,Black;3,4,Black;3,5,Black;3,6,Black;3,7,Black;4,0,Black;4,1,Black;4,2,Black;4,3,Black;4,4,Black;4,5,Black;4,6,Black;4,7,Black;5,0,Black;5,1,Black;5,2,Black;5,3,Black;5,4,Black;5,5,Black;5,6,Black;5,7,Black;6,0,Black;6,1,Black;6,2,Black;6,3,Black;6,4,Black;6,5,Black;6,6,Black;6,7,Black;7,0,Black;7,1,Black;7,2,Black;7,3,Black;7,4,Black;7,5,Black;7,6,Black;7,7,Black",
+                    "FrameDuration": 300
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Yellow",
+              "Enabled": false,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Yellow;0,1,Yellow;0,2,Yellow;0,3,Yellow;0,4,Black;0,5,Black;0,6,Black;0,7,Black;1,0,Yellow;1,1,Yellow;1,2,Yellow;1,3,Yellow;1,4,Black;1,5,Black;1,6,Black;1,7,Black;2,0,Yellow;2,1,Yellow;2,2,Yellow;2,3,Yellow;2,4,Black;2,5,Black;2,6,Black;2,7,Black;3,0,Yellow;3,1,Yellow;3,2,Yellow;3,3,Yellow;3,4,Black;3,5,Black;3,6,Black;3,7,Black;4,0,Yellow;4,1,Yellow;4,2,Yellow;4,3,Yellow;4,4,Black;4,5,Black;4,6,Black;4,7,Black;5,0,Yellow;5,1,Yellow;5,2,Yellow;5,3,Yellow;5,4,Black;5,5,Black;5,6,Black;5,7,Black;6,0,Yellow;6,1,Yellow;6,2,Yellow;6,3,Yellow;6,4,Black;6,5,Black;6,6,Black;6,7,Black;7,0,Yellow;7,1,Yellow;7,2,Yellow;7,3,Yellow;7,4,Black;7,5,Black;7,6,Black;7,7,Black",
+                    "FrameDuration": 150
+                  },
+                  {
+                    "Colors": "0,0,Black;0,1,Black;0,2,Black;0,3,Black;0,4,Yellow;0,5,Yellow;0,6,Yellow;0,7,Yellow;1,0,Black;1,1,Black;1,2,Black;1,3,Black;1,4,Yellow;1,5,Yellow;1,6,Yellow;1,7,Yellow;2,0,Black;2,1,Black;2,2,Black;2,3,Black;2,4,Yellow;2,5,Yellow;2,6,Yellow;2,7,Yellow;3,0,Black;3,1,Black;3,2,Black;3,3,Black;3,4,Yellow;3,5,Yellow;3,6,Yellow;3,7,Yellow;4,0,Black;4,1,Black;4,2,Black;4,3,Black;4,4,Yellow;4,5,Yellow;4,6,Yellow;4,7,Yellow;5,0,Black;5,1,Black;5,2,Black;5,3,Black;5,4,Yellow;5,5,Yellow;5,6,Yellow;5,7,Yellow;6,0,Black;6,1,Black;6,2,Black;6,3,Black;6,4,Yellow;6,5,Yellow;6,6,Yellow;6,7,Yellow;7,0,Black;7,1,Black;7,2,Black;7,3,Black;7,4,Yellow;7,5,Yellow;7,6,Yellow;7,7,Yellow",
+                    "FrameDuration": 150
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Blue",
+              "Enabled": false,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Blue;0,1,Blue;0,2,Blue;0,3,Blue;0,4,Blue;0,5,Blue;0,6,Yellow;0,7,Yellow;1,0,Blue;1,1,Blue;1,2,Blue;1,3,Blue;1,4,Blue;1,5,Yellow;1,6,Yellow;1,7,Yellow;2,0,Blue;2,1,Blue;2,2,Blue;2,3,Blue;2,4,Yellow;2,5,Yellow;2,6,Yellow;2,7,Blue;3,0,Blue;3,1,Blue;3,2,Blue;3,3,Yellow;3,4,Yellow;3,5,Yellow;3,6,Blue;3,7,Blue;4,0,Blue;4,1,Blue;4,2,Yellow;4,3,Yellow;4,4,Yellow;4,5,Blue;4,6,Blue;4,7,Blue;5,0,Blue;5,1,Yellow;5,2,Yellow;5,3,Yellow;5,4,Blue;5,5,Blue;5,6,Blue;5,7,Blue;6,0,Yellow;6,1,Yellow;6,2,Yellow;6,3,Blue;6,4,Blue;6,5,Blue;6,6,Blue;6,7,Blue;7,0,Yellow;7,1,Yellow;7,2,Blue;7,3,Blue;7,4,Blue;7,5,Blue;7,6,Blue;7,7,Blue",
+                    "FrameDuration": 800
+                  },
+                  {
+                    "Colors": "",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "White",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,White;0,1,White;0,2,White;0,3,White;0,4,White;0,5,White;0,6,White;0,7,White;1,0,White;1,1,White;1,2,White;1,3,White;1,4,White;1,5,White;1,6,White;1,7,White;2,0,White;2,1,White;2,2,White;2,3,White;2,4,White;2,5,White;2,6,White;2,7,White;3,0,White;3,1,White;3,2,White;3,3,Black;3,4,Black;3,5,White;3,6,White;3,7,White;4,0,White;4,1,White;4,2,White;4,3,Black;4,4,Black;4,5,White;4,6,White;4,7,White;5,0,White;5,1,White;5,2,White;5,3,White;5,4,White;5,5,White;5,6,White;5,7,White;6,0,White;6,1,White;6,2,White;6,3,White;6,4,White;6,5,White;6,6,White;6,7,White;7,0,White;7,1,White;7,2,White;7,3,White;7,4,White;7,5,White;7,6,White;7,7,White",
+                    "FrameDuration": 800
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Green",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Green;0,1,Green;0,2,Green;0,3,Green;0,4,Green;0,5,Green;0,6,Green;0,7,Green;1,0,Green;1,1,Green;1,2,Green;1,3,Green;1,4,Green;1,5,Green;1,6,Green;1,7,Green;2,0,Green;2,1,Green;2,2,Green;2,3,Green;2,4,Green;2,5,Green;2,6,Green;2,7,Green;3,0,Green;3,1,Green;3,2,Green;3,3,Green;3,4,Green;3,5,Green;3,6,Green;3,7,Green;4,0,Green;4,1,Green;4,2,Green;4,3,Green;4,4,Green;4,5,Green;4,6,Green;4,7,Green;5,0,Green;5,1,Green;5,2,Green;5,3,Green;5,4,Green;5,5,Green;5,6,Green;5,7,Green;6,0,Green;6,1,Green;6,2,Green;6,3,Green;6,4,Green;6,5,Green;6,6,Green;6,7,Green;7,0,Green;7,1,Green;7,2,Green;7,3,Green;7,4,Green;7,5,Green;7,6,Green;7,7,Green",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            }
+          ],
+          "EnableYellowAnimation": true,
+          "EnableBlackAnimation": true,
+          "EnableBlueAnimation": true,
+          "EnableWhiteAnimation": true,
+          "EnableGreenAnimation": true,
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "61854a17-8cd8-4ed8-8edd-01c1d0b4d03a",
+          "ContainerType": "FlagsContainer",
+          "Description": "Show flags animation",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "FlagSettings": [
+            {
+              "Name": "Black",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,White;0,1,White;0,2,White;0,3,White;0,4,White;0,5,White;0,6,White;0,7,White;1,0,White;1,1,Black;1,2,Black;1,3,Black;1,4,Black;1,5,Black;1,6,Black;1,7,White;2,0,White;2,1,Black;2,2,Black;2,3,Black;2,4,Black;2,5,Black;2,6,Black;2,7,White;3,0,White;3,1,Black;3,2,Black;3,3,Black;3,4,Black;3,5,Black;3,6,Black;3,7,White;4,0,White;4,1,Black;4,2,Black;4,3,Black;4,4,Black;4,5,Black;4,6,Black;4,7,White;5,0,White;5,1,Black;5,2,Black;5,3,Black;5,4,Black;5,5,Black;5,6,Black;5,7,White;6,0,White;6,1,Black;6,2,Black;6,3,Black;6,4,Black;6,5,Black;6,6,Black;6,7,White;7,0,White;7,1,White;7,2,White;7,3,White;7,4,White;7,5,White;7,6,White;7,7,White",
+                    "FrameDuration": 300
+                  },
+                  {
+                    "Colors": "0,0,Black;0,1,Black;0,2,Black;0,3,Black;0,4,Black;0,5,Black;0,6,Black;0,7,Black;1,0,Black;1,1,Black;1,2,Black;1,3,Black;1,4,Black;1,5,Black;1,6,Black;1,7,Black;2,0,Black;2,1,Black;2,2,Black;2,3,Black;2,4,Black;2,5,Black;2,6,Black;2,7,Black;3,0,Black;3,1,Black;3,2,Black;3,3,Black;3,4,Black;3,5,Black;3,6,Black;3,7,Black;4,0,Black;4,1,Black;4,2,Black;4,3,Black;4,4,Black;4,5,Black;4,6,Black;4,7,Black;5,0,Black;5,1,Black;5,2,Black;5,3,Black;5,4,Black;5,5,Black;5,6,Black;5,7,Black;6,0,Black;6,1,Black;6,2,Black;6,3,Black;6,4,Black;6,5,Black;6,6,Black;6,7,Black;7,0,Black;7,1,Black;7,2,Black;7,3,Black;7,4,Black;7,5,Black;7,6,Black;7,7,Black",
+                    "FrameDuration": 300
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Yellow",
+              "Enabled": false,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Yellow;0,1,Yellow;0,2,Yellow;0,3,Yellow;0,4,Black;0,5,Black;0,6,Black;0,7,Black;1,0,Yellow;1,1,Yellow;1,2,Yellow;1,3,Yellow;1,4,Black;1,5,Black;1,6,Black;1,7,Black;2,0,Yellow;2,1,Yellow;2,2,Yellow;2,3,Yellow;2,4,Black;2,5,Black;2,6,Black;2,7,Black;3,0,Yellow;3,1,Yellow;3,2,Yellow;3,3,Yellow;3,4,Black;3,5,Black;3,6,Black;3,7,Black;4,0,Yellow;4,1,Yellow;4,2,Yellow;4,3,Yellow;4,4,Black;4,5,Black;4,6,Black;4,7,Black;5,0,Yellow;5,1,Yellow;5,2,Yellow;5,3,Yellow;5,4,Black;5,5,Black;5,6,Black;5,7,Black;6,0,Yellow;6,1,Yellow;6,2,Yellow;6,3,Yellow;6,4,Black;6,5,Black;6,6,Black;6,7,Black;7,0,Yellow;7,1,Yellow;7,2,Yellow;7,3,Yellow;7,4,Black;7,5,Black;7,6,Black;7,7,Black",
+                    "FrameDuration": 150
+                  },
+                  {
+                    "Colors": "0,0,Black;0,1,Black;0,2,Black;0,3,Black;0,4,Yellow;0,5,Yellow;0,6,Yellow;0,7,Yellow;1,0,Black;1,1,Black;1,2,Black;1,3,Black;1,4,Yellow;1,5,Yellow;1,6,Yellow;1,7,Yellow;2,0,Black;2,1,Black;2,2,Black;2,3,Black;2,4,Yellow;2,5,Yellow;2,6,Yellow;2,7,Yellow;3,0,Black;3,1,Black;3,2,Black;3,3,Black;3,4,Yellow;3,5,Yellow;3,6,Yellow;3,7,Yellow;4,0,Black;4,1,Black;4,2,Black;4,3,Black;4,4,Yellow;4,5,Yellow;4,6,Yellow;4,7,Yellow;5,0,Black;5,1,Black;5,2,Black;5,3,Black;5,4,Yellow;5,5,Yellow;5,6,Yellow;5,7,Yellow;6,0,Black;6,1,Black;6,2,Black;6,3,Black;6,4,Yellow;6,5,Yellow;6,6,Yellow;6,7,Yellow;7,0,Black;7,1,Black;7,2,Black;7,3,Black;7,4,Yellow;7,5,Yellow;7,6,Yellow;7,7,Yellow",
+                    "FrameDuration": 150
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Blue",
+              "Enabled": false,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Blue;0,1,Blue;0,2,Blue;0,3,Blue;0,4,Blue;0,5,Blue;0,6,Yellow;0,7,Yellow;1,0,Blue;1,1,Blue;1,2,Blue;1,3,Blue;1,4,Blue;1,5,Yellow;1,6,Yellow;1,7,Yellow;2,0,Blue;2,1,Blue;2,2,Blue;2,3,Blue;2,4,Yellow;2,5,Yellow;2,6,Yellow;2,7,Blue;3,0,Blue;3,1,Blue;3,2,Blue;3,3,Yellow;3,4,Yellow;3,5,Yellow;3,6,Blue;3,7,Blue;4,0,Blue;4,1,Blue;4,2,Yellow;4,3,Yellow;4,4,Yellow;4,5,Blue;4,6,Blue;4,7,Blue;5,0,Blue;5,1,Yellow;5,2,Yellow;5,3,Yellow;5,4,Blue;5,5,Blue;5,6,Blue;5,7,Blue;6,0,Yellow;6,1,Yellow;6,2,Yellow;6,3,Blue;6,4,Blue;6,5,Blue;6,6,Blue;6,7,Blue;7,0,Yellow;7,1,Yellow;7,2,Blue;7,3,Blue;7,4,Blue;7,5,Blue;7,6,Blue;7,7,Blue",
+                    "FrameDuration": 800
+                  },
+                  {
+                    "Colors": "",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "White",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,White;0,1,White;0,2,White;0,3,White;0,4,White;0,5,White;0,6,White;0,7,White;1,0,White;1,1,White;1,2,White;1,3,White;1,4,White;1,5,White;1,6,White;1,7,White;2,0,White;2,1,White;2,2,White;2,3,White;2,4,White;2,5,White;2,6,White;2,7,White;3,0,White;3,1,White;3,2,White;3,3,Black;3,4,Black;3,5,White;3,6,White;3,7,White;4,0,White;4,1,White;4,2,White;4,3,Black;4,4,Black;4,5,White;4,6,White;4,7,White;5,0,White;5,1,White;5,2,White;5,3,White;5,4,White;5,5,White;5,6,White;5,7,White;6,0,White;6,1,White;6,2,White;6,3,White;6,4,White;6,5,White;6,6,White;6,7,White;7,0,White;7,1,White;7,2,White;7,3,White;7,4,White;7,5,White;7,6,White;7,7,White",
+                    "FrameDuration": 800
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            },
+            {
+              "Name": "Green",
+              "Enabled": true,
+              "DefaultAnimation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Green;0,1,Green;0,2,Green;0,3,Green;0,4,Green;0,5,Green;0,6,Green;0,7,Green;1,0,Green;1,1,Green;1,2,Green;1,3,Green;1,4,Green;1,5,Green;1,6,Green;1,7,Green;2,0,Green;2,1,Green;2,2,Green;2,3,Green;2,4,Green;2,5,Green;2,6,Green;2,7,Green;3,0,Green;3,1,Green;3,2,Green;3,3,Green;3,4,Green;3,5,Green;3,6,Green;3,7,Green;4,0,Green;4,1,Green;4,2,Green;4,3,Green;4,4,Green;4,5,Green;4,6,Green;4,7,Green;5,0,Green;5,1,Green;5,2,Green;5,3,Green;5,4,Green;5,5,Green;5,6,Green;5,7,Green;6,0,Green;6,1,Green;6,2,Green;6,3,Green;6,4,Green;6,5,Green;6,6,Green;6,7,Green;7,0,Green;7,1,Green;7,2,Green;7,3,Green;7,4,Green;7,5,Green;7,6,Green;7,7,Green",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Red"
+              }
+            }
+          ],
+          "EnableYellowAnimation": true,
+          "EnableBlackAnimation": true,
+          "EnableBlueAnimation": true,
+          "EnableWhiteAnimation": true,
+          "EnableGreenAnimation": true,
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "4bb462eb-63b5-441f-9620-2c2a46196a42",
+          "ContainerType": "FlagsContainer",
+          "Description": "Show flags animation",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "Expression": "[GameRawData.RedFlagShown] == 1"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Red;0,1,Red;0,2,Red;0,3,Red;0,4,Red;0,5,Red;0,6,Red;0,7,Red;1,0,Red;1,1,Red;1,2,Red;1,3,Red;1,4,Red;1,5,Red;1,6,Red;1,7,Red;2,0,Red;2,1,Red;2,2,Red;2,3,Red;2,4,Red;2,5,Red;2,6,Red;2,7,Red;3,0,Red;3,1,Red;3,2,Red;3,3,Red;3,4,Red;3,5,Red;3,6,Red;3,7,Red;4,0,Red;4,1,Red;4,2,Red;4,3,Red;4,4,Red;4,5,Red;4,6,Red;4,7,Red;5,0,Red;5,1,Red;5,2,Red;5,3,Red;5,4,Red;5,5,Red;5,6,Red;5,7,Red;6,0,Red;6,1,Red;6,2,Red;6,3,Red;6,4,Red;6,5,Red;6,6,Red;6,7,Red;7,0,Red;7,1,Red;7,2,Red;7,3,Red;7,4,Red;7,5,Red;7,6,Red;7,7,Red",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Red"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "5d6819c6-85e2-4164-9f84-6967c7e1a053",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Red;0,1,Red;0,2,Red;0,3,Red;0,4,Red;0,5,Red;0,6,Red;0,7,Red;1,0,Red;1,1,Red;1,2,Red;1,3,Red;1,4,Red;1,5,Red;1,6,Red;1,7,Red;2,0,Red;2,1,Red;2,2,Red;2,3,Red;2,4,Red;2,5,Red;2,6,Red;2,7,Red;3,0,Red;3,1,Red;3,2,Red;3,3,Red;3,4,Red;3,5,Red;3,6,Red;3,7,Red;4,0,Red;4,1,Red;4,2,Red;4,3,Red;4,4,Red;4,5,Red;4,6,Red;4,7,Red;5,0,Red;5,1,Red;5,2,Red;5,3,Red;5,4,Red;5,5,Red;5,6,Red;5,7,Red;6,0,Red;6,1,Red;6,2,Red;6,3,Red;6,4,Red;6,5,Red;6,6,Red;6,7,Red;7,0,Red;7,1,Red;7,2,Red;7,3,Red;7,4,Red;7,5,Red;7,6,Red;7,7,Red",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Red"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "102a5484-e1a9-4bae-a2c1-83884261818c",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "8a28e614-e4d3-4ac4-91f6-32861a84f20c",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Red Flag",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "JSExt": 0,
+            "Interpreter": 1,
+            "Expression": "var game = String($prop('DataCorePlugin.CurrentGame') || '');\r\n\r\nif (game.indexOf('IRacing') === 0) {\r\n  var y = $prop('GameRawData.Telemetry.SessionFlagsDetails.Isyellow');\r\n  var w = $prop('GameRawData.Telemetry.SessionFlagsDetails.IsyellowWaving');\r\n  return (y == true || y == 1) && !(w == true || w == 1);\r\n}\r\nif (game.indexOf('F1') === 0) {\r\n  return $prop('GameRawData.PlayerCarStatusData.m_vehicleFIAFlags') == 3;\r\n}\r\nreturn $prop('DataCorePlugin.GameData.Flag_Yellow') == 1;   // any other game"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "IdleBlinkingColor": "Transparent",
+              "Color": "Yellow",
+              "BlinkingColor": "Transparent",
+              "EnableIdleBlinking": false,
+              "BlinkEnabled": false,
+              "Width": 8,
+              "Height": 8,
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "d492ce7e-7d5a-45d0-9874-63768131ae0f",
+              "ContainerType": "StaticColorContainer",
+              "Description": "Generates a static light effect",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "IdleBlinkingColor": "Transparent",
+              "Color": "Yellow",
+              "BlinkingColor": "Transparent",
+              "EnableIdleBlinking": false,
+              "BlinkEnabled": false,
+              "Width": 8,
+              "Height": 8,
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "5a4929a5-2a2e-407e-bfda-1cc1a97671d0",
+              "ContainerType": "StaticColorContainer",
+              "Description": "Generates a static light effect copy",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "a09846ff-cd01-4f49-b61d-f8c04f8072c1",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Yellow Flag",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "JSExt": 0,
+            "Interpreter": 1,
+            "Expression": "var game = String($prop('DataCorePlugin.CurrentGame') || '');\r\n\r\nif (game.indexOf('IRacing') === 0) {\r\n  var w = $prop('GameRawData.Telemetry.SessionFlagsDetails.IsyellowWaving');\r\n  return w == true || w == 1;\r\n}\r\nreturn false;"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#FFFF00;0,1,#FFFF00;0,2,#FFFF00;0,3,#FFFF00;0,4,#FFFF00;0,5,#FFFF00;0,6,#FFFF00;0,7,#FFFF00;1,0,#FFFF00;1,1,#FFFF00;1,2,#FFFF00;1,3,#FFFF00;1,4,#FFFF00;1,5,#FFFF00;1,6,#FFFF00;2,0,#FFFF00;2,1,#FFFF00;2,2,#FFFF00;2,3,#FFFF00;2,4,#FFFF00;2,5,#FFFF00;3,0,#FFFF00;3,1,#FFFF00;3,2,#FFFF00;3,3,#FFFF00;3,4,#FFFF00;4,0,#FFFF00;4,1,#FFFF00;4,2,#FFFF00;4,3,#FFFF00;5,0,#FFFF00;5,1,#FFFF00;5,2,#FFFF00;6,0,#FFFF00;6,1,#FFFF00;7,0,#FFFF00",
+                    "FrameDuration": 200
+                  },
+                  {
+                    "Colors": "0,7,#FFFF00;1,6,#FFFF00;1,7,#FFFF00;2,5,#FFFF00;2,6,#FFFF00;2,7,#FFFF00;3,4,#FFFF00;3,5,#FFFF00;3,6,#FFFF00;3,7,#FFFF00;4,3,#FFFF00;4,4,#FFFF00;4,5,#FFFF00;4,6,#FFFF00;4,7,#FFFF00;5,2,#FFFF00;5,3,#FFFF00;5,4,#FFFF00;5,5,#FFFF00;5,6,#FFFF00;5,7,#FFFF00;6,1,#FFFF00;6,2,#FFFF00;6,3,#FFFF00;6,4,#FFFF00;6,5,#FFFF00;6,6,#FFFF00;6,7,#FFFF00;7,0,#FFFF00;7,1,#FFFF00;7,2,#FFFF00;7,3,#FFFF00;7,4,#FFFF00;7,5,#FFFF00;7,6,#FFFF00;7,7,#FFFF00",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "5d6819c6-85e2-4164-9f84-6967c7e1a053",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#FFFF00;0,1,#FFFF00;0,2,#FFFF00;0,3,#FFFF00;0,4,#FFFF00;0,5,#FFFF00;0,6,#FFFF00;0,7,#FFFF00;1,0,#FFFF00;1,1,#FFFF00;1,2,#FFFF00;1,3,#FFFF00;1,4,#FFFF00;1,5,#FFFF00;1,6,#FFFF00;2,0,#FFFF00;2,1,#FFFF00;2,2,#FFFF00;2,3,#FFFF00;2,4,#FFFF00;2,5,#FFFF00;3,0,#FFFF00;3,1,#FFFF00;3,2,#FFFF00;3,3,#FFFF00;3,4,#FFFF00;4,0,#FFFF00;4,1,#FFFF00;4,2,#FFFF00;4,3,#FFFF00;5,0,#FFFF00;5,1,#FFFF00;5,2,#FFFF00;6,0,#FFFF00;6,1,#FFFF00;7,0,#FFFF00",
+                    "FrameDuration": 200
+                  },
+                  {
+                    "Colors": "0,7,#FFFF00;1,6,#FFFF00;1,7,#FFFF00;2,5,#FFFF00;2,6,#FFFF00;2,7,#FFFF00;3,4,#FFFF00;3,5,#FFFF00;3,6,#FFFF00;3,7,#FFFF00;4,3,#FFFF00;4,4,#FFFF00;4,5,#FFFF00;4,6,#FFFF00;4,7,#FFFF00;5,2,#FFFF00;5,3,#FFFF00;5,4,#FFFF00;5,5,#FFFF00;5,6,#FFFF00;5,7,#FFFF00;6,1,#FFFF00;6,2,#FFFF00;6,3,#FFFF00;6,4,#FFFF00;6,5,#FFFF00;6,6,#FFFF00;6,7,#FFFF00;7,0,#FFFF00;7,1,#FFFF00;7,2,#FFFF00;7,3,#FFFF00;7,4,#FFFF00;7,5,#FFFF00;7,6,#FFFF00;7,7,#FFFF00",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "84018589-3725-48c7-b6a9-608e4cf79c8a",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern copy",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "60a43306-6be2-4584-af31-04b0b2238545",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Waved Yellow Flag",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "JSExt": 0,
+            "Interpreter": 1,
+            "Expression": "var game = String($prop('DataCorePlugin.CurrentGame') || '');\r\n\r\nif (game.indexOf('IRacing') === 0) {\r\n  var b = $prop('GameRawData.Telemetry.SessionFlagsDetails.Isblue');\r\n  return b == true || b == 1;\r\n}\r\nif (game.indexOf('F1') === 0) {\r\n  return $prop('GameRawData.PlayerCarStatusData.m_vehicleFIAFlags') == 2;\r\n}\r\nreturn $prop('DataCorePlugin.GameData.Flag_Blue') == 1;   // any other game"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#0000FF;0,1,#0000FF;0,2,#0000FF;0,3,#0000FF;0,4,#0000FF;0,5,#0000FF;0,6,#0000FF;0,7,#0000FF;1,0,#0000FF;1,1,#0000FF;1,2,#0000FF;1,3,#0000FF;1,4,#0000FF;1,5,#0000FF;1,6,#0000FF;1,7,#0000FF;2,0,#0000FF;2,1,#0000FF;2,2,#0000FF;2,3,#0000FF;2,4,#0000FF;2,5,#0000FF;2,6,#0000FF;2,7,#0000FF;3,0,#0000FF;3,1,#0000FF;3,2,#0000FF;3,3,#0000FF;3,4,#0000FF;3,5,#0000FF;3,6,#0000FF;3,7,#0000FF;4,0,#0000FF;4,1,#0000FF;4,2,#0000FF;4,3,#0000FF;4,4,#0000FF;4,5,#0000FF;4,6,#0000FF;4,7,#0000FF;5,0,#0000FF;5,1,#0000FF;5,2,#0000FF;5,3,#0000FF;5,4,#0000FF;5,5,#0000FF;5,6,#0000FF;5,7,#0000FF;6,0,#0000FF;6,1,#0000FF;6,2,#0000FF;6,3,#0000FF;6,4,#0000FF;6,5,#0000FF;6,6,#0000FF;6,7,#0000FF;7,0,#0000FF;7,1,#0000FF;7,2,#0000FF;7,3,#0000FF;7,4,#0000FF;7,5,#0000FF;7,6,#0000FF;7,7,#0000FF",
+                    "FrameDuration": 200
+                  },
+                  {
+                    "Colors": "",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Blue"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "5d6819c6-85e2-4164-9f84-6967c7e1a053",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#0000FF;0,1,#0000FF;0,2,#0000FF;0,3,#0000FF;0,4,#0000FF;0,5,#0000FF;0,6,#0000FF;0,7,#0000FF;1,0,#0000FF;1,1,#0000FF;1,2,#0000FF;1,3,#0000FF;1,4,#0000FF;1,5,#0000FF;1,6,#0000FF;1,7,#0000FF;2,0,#0000FF;2,1,#0000FF;2,2,#0000FF;2,3,#0000FF;2,4,#0000FF;2,5,#0000FF;2,6,#0000FF;2,7,#0000FF;3,0,#0000FF;3,1,#0000FF;3,2,#0000FF;3,3,#0000FF;3,4,#0000FF;3,5,#0000FF;3,6,#0000FF;3,7,#0000FF;4,0,#0000FF;4,1,#0000FF;4,2,#0000FF;4,3,#0000FF;4,4,#0000FF;4,5,#0000FF;4,6,#0000FF;4,7,#0000FF;5,0,#0000FF;5,1,#0000FF;5,2,#0000FF;5,3,#0000FF;5,4,#0000FF;5,5,#0000FF;5,6,#0000FF;5,7,#0000FF;6,0,#0000FF;6,1,#0000FF;6,2,#0000FF;6,3,#0000FF;6,4,#0000FF;6,5,#0000FF;6,6,#0000FF;6,7,#0000FF;7,0,#0000FF;7,1,#0000FF;7,2,#0000FF;7,3,#0000FF;7,4,#0000FF;7,5,#0000FF;7,6,#0000FF;7,7,#0000FF",
+                    "FrameDuration": 200
+                  },
+                  {
+                    "Colors": "",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Blue"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "102a5484-e1a9-4bae-a2c1-83884261818c",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "e97923e8-bf37-40b5-8743-5a0cb38820d4",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Blue Flag",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "Expression": "[GameRawData.Telemetry.SessionFlagsDetails.Isdebris]==1"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Red;0,1,Red;0,2,#FFFF00;0,3,#FFFF00;0,4,Red;0,5,Red;0,6,#FFFF00;0,7,#FFFF00;1,0,Red;1,1,Red;1,2,#FFFF00;1,3,#FFFF00;1,4,Red;1,5,Red;1,6,#FFFF00;1,7,#FFFF00;2,0,Red;2,1,Red;2,2,#FFFF00;2,3,#FFFF00;2,4,Red;2,5,Red;2,6,#FFFF00;2,7,#FFFF00;3,0,Red;3,1,Red;3,2,#FFFF00;3,3,#FFFF00;3,4,Red;3,5,Red;3,6,#FFFF00;3,7,#FFFF00;4,0,Red;4,1,Red;4,2,#FFFF00;4,3,#FFFF00;4,4,Red;4,5,Red;4,6,#FFFF00;4,7,#FFFF00;5,0,Red;5,1,Red;5,2,#FFFF00;5,3,#FFFF00;5,4,Red;5,5,Red;5,6,#FFFF00;5,7,#FFFF00;6,0,Red;6,1,Red;6,2,#FFFF00;6,3,#FFFF00;6,4,Red;6,5,Red;6,6,#FFFF00;6,7,#FFFF00;7,0,Red;7,1,Red;7,2,#FFFF00;7,3,#FFFF00;7,4,Red;7,5,Red;7,6,#FFFF00;7,7,#FFFF00",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "5d6819c6-85e2-4164-9f84-6967c7e1a053",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,Yellow;0,1,#FFFF00;0,2,Red;0,3,#FF0000;0,4,Yellow;0,5,#FFFF00;0,6,Red;0,7,#FF0000;1,0,Yellow;1,1,#FFFF00;1,2,Red;1,3,#FF0000;1,4,Yellow;1,5,#FFFF00;1,6,Red;1,7,#FF0000;2,0,Yellow;2,1,#FFFF00;2,2,Red;2,3,#FF0000;2,4,Yellow;2,5,#FFFF00;2,6,Red;2,7,#FF0000;3,0,Yellow;3,1,#FFFF00;3,2,Red;3,3,#FF0000;3,4,Yellow;3,5,#FFFF00;3,6,#FF0000;3,7,#FF0000;4,0,Yellow;4,1,#FFFF00;4,2,Red;4,3,#FF0000;4,4,Yellow;4,5,#FFFF00;4,6,#FF0000;4,7,#FF0000;5,0,Yellow;5,1,#FFFF00;5,2,Red;5,3,#FF0000;5,4,Yellow;5,5,#FFFF00;5,6,#FF0000;5,7,#FF0000;6,0,Yellow;6,1,#FFFF00;6,2,Red;6,3,#FF0000;6,4,Yellow;6,5,#FFFF00;6,6,#FF0000;6,7,#FF0000;7,0,Yellow;7,1,#FFFF00;7,2,Red;7,3,#FF0000;7,4,Yellow;7,5,#FFFF00;7,6,Red;7,7,#FF0000",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Red"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "102a5484-e1a9-4bae-a2c1-83884261818c",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "ef703e21-d226-4009-bbd4-a19503aa4ff9",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Red-Yellow Flag",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "Expression": "isdefined([DataCorePlugin.GameRawData.Telemetry.PenaltyType])\r\nand toint([DataCorePlugin.GameRawData.Telemetry.PenaltyType]) == 2\r\n"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#FFFFFF;0,1,#FFFFFF;0,2,#FFFFFF;0,3,#FFFFFF;0,4,#FFFFFF;0,5,#FFFFFF;0,6,#FFFFFF;0,7,#FFFFFF;1,0,#FFFFFF;1,1,#000000;1,2,#000000;1,3,#000000;1,4,#000000;1,5,#000000;1,6,#000000;1,7,#FFFFFF;2,0,#FFFFFF;2,1,#000000;2,2,#000000;2,3,#000000;2,4,#000000;2,5,#000000;2,6,#000000;2,7,#FFFFFF;3,0,#FFFFFF;3,1,#000000;3,2,#000000;3,3,#000000;3,4,#000000;3,5,#000000;3,6,#000000;3,7,#FFFFFF;4,0,#FFFFFF;4,1,#000000;4,2,#000000;4,3,#000000;4,4,#000000;4,5,#000000;4,6,#000000;4,7,#FFFFFF;5,0,#FFFFFF;5,1,#000000;5,2,#000000;5,3,#000000;5,4,#000000;5,5,#000000;5,6,#000000;5,7,#FFFFFF;6,0,#FFFFFF;6,1,#000000;6,2,#000000;6,3,#000000;6,4,#000000;6,5,#000000;6,6,#000000;6,7,#FFFFFF;7,0,#FFFFFF;7,1,#FFFFFF;7,2,#FFFFFF;7,3,#FFFFFF;7,4,#FFFFFF;7,5,#FFFFFF;7,6,#FFFFFF;7,7,#FFFFFF",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "White"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "5d6819c6-85e2-4164-9f84-6967c7e1a053",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#FFFFFF;0,1,#FFFFFF;0,2,#FFFFFF;0,3,#FFFFFF;0,4,#FFFFFF;0,5,#FFFFFF;0,6,#FFFFFF;0,7,#FFFFFF;1,0,#FFFFFF;1,1,#000000;1,2,#000000;1,3,#000000;1,4,#000000;1,5,#000000;1,6,#000000;1,7,#FFFFFF;2,0,#FFFFFF;2,1,#000000;2,2,#000000;2,3,#000000;2,4,#000000;2,5,#000000;2,6,#000000;2,7,#FFFFFF;3,0,#FFFFFF;3,1,#000000;3,2,#000000;3,3,#000000;3,4,#000000;3,5,#000000;3,6,#000000;3,7,#FFFFFF;4,0,#FFFFFF;4,1,#000000;4,2,#000000;4,3,#000000;4,4,#000000;4,5,#000000;4,6,#000000;4,7,#FFFFFF;5,0,#FFFFFF;5,1,#000000;5,2,#000000;5,3,#000000;5,4,#000000;5,5,#000000;5,6,#000000;5,7,#FFFFFF;6,0,#FFFFFF;6,1,#000000;6,2,#000000;6,3,#000000;6,4,#000000;6,5,#000000;6,6,#000000;6,7,#FFFFFF;7,0,#FFFFFF;7,1,#FFFFFF;7,2,#FFFFFF;7,3,#FFFFFF;7,4,#FFFFFF;7,5,#FFFFFF;7,6,#FFFFFF;7,7,#FFFFFF",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "White"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "57828190-ced8-4966-9b69-0fb5916c67a0",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "bb9cbdaf-706d-48da-8c49-6e98c0e94f10",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "F1 Black Flag",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "SpotterStyle": 3,
+          "ClearBackgroundWhenActive": true,
+          "StartPositionMatrix": 1,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "195f0386-5bba-4c2a-9182-3170ec800511",
+          "ContainerType": "SpotterContainer",
+          "Description": "Show spotter overlay copy",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "SpotterStyle": 4,
+          "ClearBackgroundWhenActive": true,
+          "StartPositionMatrix": 2,
+          "StartPositionX": 1,
+          "StartPositionY": 1,
+          "ContainerId": "1bd714ba-8d56-46fc-9e51-e6818fe35e3c",
+          "ContainerType": "SpotterContainer",
+          "Description": "Show spotter overlay",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "1,0,#FFFF00;1,1,#FFFF00;1,2,#FFFF00;1,4,#FFFF00;2,0,#FFFF00;2,2,#FFFF00;2,4,#FFFF00;3,0,#FFFF00;3,1,#FFFF00;3,2,#FFFF00;3,4,#FFFF00;4,0,#FFFF00;4,4,#FFFF00;5,0,#FFFF00;5,4,#FFFF00;6,0,#FFFF00;6,4,#FFFF00;6,5,#FFFF00;6,6,#FFFF00",
+                    "FrameDuration": 200
+                  },
+                  {
+                    "Colors": "",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "f14daf19-c7ac-43af-b3e6-0e6b6779cffd",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "1,1,#FFFF00;1,2,Yellow;1,3,Yellow;1,5,Yellow;2,1,Yellow;2,3,Yellow;2,5,Yellow;3,1,#FFFF00;3,2,Yellow;3,3,Yellow;3,5,Yellow;4,1,Yellow;4,5,Yellow;5,1,Yellow;5,5,Yellow;6,5,Yellow;6,6,Yellow;6,1,Yellow;6,7,Yellow",
+                    "FrameDuration": 200
+                  },
+                  {
+                    "Colors": "",
+                    "FrameDuration": 200
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "8312111c-4fc1-440b-9273-b2ecf5aa5c6c",
+              "ContainerType": "AnimationContainer",
+              "Description": "Pit Limiter",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "aa28eee3-5b0c-4ba7-a91d-88d2df93c57a",
+          "ContainerType": "GameCarSpeedLimiterGroupContainer",
+          "Description": "Pit Limiter",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "Expression": "[GameRawData.PacketSessionData.m_safetyCarStatus]==1"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "1,1,#FFFF00;1,2,#FFFF00;1,5,#FFFF00;1,6,#FFFF00;1,7,#FFFF00;2,0,#FFFF00;2,4,#FFFF00;3,0,#FFFF00;3,4,#FFFF00;4,1,#FFFF00;4,2,#FFFF00;4,4,#FFFF00;5,3,#FFFF00;5,4,#FFFF00;6,3,#FFFF00;6,4,#FFFF00;7,0,#FFFF00;7,1,#FFFF00;7,2,#FFFF00;7,5,#FFFF00;7,6,#FFFF00;7,7,#FFFF00",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "38dd32bf-16c1-4d12-a894-98e0de80722d",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "1,1,#FFFF00;1,2,#FFFF00;1,5,#FFFF00;1,6,#FFFF00;1,7,#FFFF00;2,0,#FFFF00;2,4,#FFFF00;3,0,#FFFF00;3,4,#FFFF00;4,1,#FFFF00;4,2,#FFFF00;4,4,#FFFF00;5,3,#FFFF00;5,4,#FFFF00;6,3,#FFFF00;6,4,#FFFF00;7,0,#FFFF00;7,1,#FFFF00;7,2,#FFFF00;7,5,#FFFF00;7,6,#FFFF00;7,7,#FFFF00",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "474491c0-0167-4702-9513-ca52f9ab2e6b",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "58716767-8ff0-4583-a17c-9a1a85a0344e",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Safety Car",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "Expression": "[GameRawData.PacketSessionData.m_safetyCarStatus]==2"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "1,2,Yellow;1,4,Yellow;2,3,Yellow;3,1,Yellow;3,2,Yellow;3,5,Yellow;3,6,Yellow;4,4,Yellow;4,0,Yellow;5,4,Yellow;5,0,Yellow;5,1,Yellow;6,4,Yellow;6,2,Yellow;7,0,Yellow;7,1,Yellow;7,5,Yellow;7,6,Yellow;0,2,Yellow;0,4,Yellow",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "38dd32bf-16c1-4d12-a894-98e0de80722d",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "1,3,Yellow;1,5,Yellow;2,4,Yellow;3,2,Yellow;3,6,Yellow;3,3,Yellow;3,7,Yellow;4,1,Yellow;4,5,Yellow;5,1,Yellow;5,2,Yellow;5,5,Yellow;6,3,Yellow;6,5,Yellow;7,1,Yellow;7,6,Yellow;7,2,Yellow;7,7,Yellow;0,3,Yellow;0,5,Yellow",
+                    "FrameDuration": 100
+                  }
+                ],
+                "PenColor": "Yellow"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "7a869b0f-6928-4039-a0b3-e9522a0a62fb",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "fa6e04a8-6ca7-4e20-8911-4e5e660bd9fb",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Virtual Safety Car",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        },
+        {
+          "TriggerFormula": {
+            "Expression": "[GameRawData.Telemetry.SessionFlagsDetails.Ischeckered] == 1"
+          },
+          "ClearBackgroundWhenActive": true,
+          "StartPositionXEx": 1,
+          "StartPositionYEx": 1,
+          "LedContainers": [
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#000000;0,1,#000000;0,2,#FFFFFF;0,3,#FFFFFF;0,4,#000000;0,5,#000000;0,6,#FFFFFF;0,7,#FFFFFF;1,0,#000000;1,1,#000000;1,2,White;1,3,#FFFFFF;1,4,#000000;1,5,#000000;1,6,White;1,7,#FFFFFF;2,0,#FFFFFF;2,1,White;2,2,#000000;2,3,#000000;2,4,#FFFFFF;2,5,White;2,6,#000000;2,7,#000000;3,0,#FFFFFF;3,1,#FFFFFF;3,2,#000000;3,3,#000000;3,4,White;3,5,#FFFFFF;3,6,#000000;3,7,#000000;4,0,#000000;4,1,#000000;4,2,#FFFFFF;4,3,White;4,4,#000000;4,5,#000000;4,6,#FFFFFF;4,7,#FFFFFF;5,0,#000000;5,1,#000000;5,2,White;5,3,#FFFFFF;5,4,#000000;5,5,#000000;5,6,White;5,7,#FFFFFF;6,0,#FFFFFF;6,1,White;6,2,#000000;6,3,#000000;6,4,#FFFFFF;6,5,White;6,6,#000000;6,7,#000000;7,0,#FFFFFF;7,1,#FFFFFF;7,2,#000000;7,3,#000000;7,4,#FFFFFF;7,5,#FFFFFF;7,6,#000000;7,7,#000000",
+                    "FrameDuration": 800
+                  },
+                  {
+                    "Colors": "0,0,#FFFFFF;0,1,#FFFFFF;0,2,#000000;0,3,#000000;0,4,#FFFFFF;0,5,#FFFFFF;0,6,#000000;0,7,#000000;1,0,#FFFFFF;1,1,#FFFFFF;1,2,#000000;1,3,#000000;1,4,#FFFFFF;1,5,#FFFFFF;1,6,#000000;1,7,#000000;2,0,#000000;2,1,#000000;2,2,#FFFFFF;2,3,#FFFFFF;2,4,#000000;2,5,#000000;2,6,#FFFFFF;2,7,#FFFFFF;3,0,#000000;3,1,#000000;3,2,#FFFFFF;3,3,#FFFFFF;3,4,#000000;3,5,#000000;3,6,#FFFFFF;3,7,#FFFFFF;4,0,#FFFFFF;4,1,#FFFFFF;4,2,#000000;4,3,#000000;4,4,#FFFFFF;4,5,#FFFFFF;4,6,#000000;4,7,#000000;5,0,#FFFFFF;5,1,#FFFFFF;5,2,#000000;5,3,#000000;5,4,#FFFFFF;5,5,#FFFFFF;5,6,#000000;5,7,#000000;6,0,#000000;6,1,#000000;6,2,#FFFFFF;6,3,#FFFFFF;6,4,#000000;6,5,#000000;6,6,#FFFFFF;6,7,#FFFFFF;7,0,#000000;7,1,#000000;7,2,#FFFFFF;7,3,#FFFFFF;7,4,#000000;7,5,#000000;7,6,#FFFFFF;7,7,#FFFFFF",
+                    "FrameDuration": 800
+                  }
+                ],
+                "PenColor": "White"
+              },
+              "StartPositionMatrix": 1,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "5d6819c6-85e2-4164-9f84-6967c7e1a053",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            },
+            {
+              "Animation": {
+                "Columns": 8,
+                "Rows": 8,
+                "Frames": [
+                  {
+                    "Colors": "0,0,#000000;0,1,#000000;0,2,White;0,3,#FFFFFF;0,4,#000000;0,5,#000000;0,6,White;0,7,#FFFFFF;1,0,#000000;1,1,#000000;1,2,White;1,3,White;1,4,#000000;1,5,#000000;1,6,White;1,7,White;2,0,White;2,1,White;2,2,#000000;2,3,#000000;2,4,White;2,5,White;2,6,#000000;2,7,#000000;3,0,#FFFFFF;3,1,White;3,2,#000000;3,3,#000000;3,4,White;3,5,White;3,6,#000000;3,7,#000000;4,0,#000000;4,1,#000000;4,2,White;4,3,White;4,4,#000000;4,5,#000000;4,6,White;4,7,#FFFFFF;5,0,#000000;5,1,#000000;5,2,White;5,3,White;5,4,#000000;5,5,#000000;5,6,White;5,7,White;6,0,White;6,1,White;6,2,#000000;6,3,#000000;6,4,White;6,5,White;6,6,#000000;6,7,#000000;7,0,#FFFFFF;7,1,White;7,2,#000000;7,3,#000000;7,4,#FFFFFF;7,5,White;7,6,#000000;7,7,#000000",
+                    "FrameDuration": 800
+                  },
+                  {
+                    "Colors": "0,0,#FFFFFF;0,1,#FFFFFF;0,2,#000000;0,3,#000000;0,4,#FFFFFF;0,5,#FFFFFF;0,6,#000000;0,7,#000000;1,0,#FFFFFF;1,1,#FFFFFF;1,2,#000000;1,3,#000000;1,4,#FFFFFF;1,5,#FFFFFF;1,6,#000000;1,7,#000000;2,0,#000000;2,1,#000000;2,2,#FFFFFF;2,3,#FFFFFF;2,4,#000000;2,5,#000000;2,6,#FFFFFF;2,7,#FFFFFF;3,0,#000000;3,1,#000000;3,2,#FFFFFF;3,3,#FFFFFF;3,4,#000000;3,5,#000000;3,6,#FFFFFF;3,7,#FFFFFF;4,0,#FFFFFF;4,1,#FFFFFF;4,2,#000000;4,3,#000000;4,4,#FFFFFF;4,5,#FFFFFF;4,6,#000000;4,7,#000000;5,0,#FFFFFF;5,1,#FFFFFF;5,2,#000000;5,3,#000000;5,4,#FFFFFF;5,5,#FFFFFF;5,6,#000000;5,7,#000000;6,0,#000000;6,1,#000000;6,2,#FFFFFF;6,3,#FFFFFF;6,4,#000000;6,5,#000000;6,6,#FFFFFF;6,7,#FFFFFF;7,0,#000000;7,1,#000000;7,2,#FFFFFF;7,3,#FFFFFF;7,4,#000000;7,5,#000000;7,6,#FFFFFF;7,7,#FFFFFF",
+                    "FrameDuration": 800
+                  }
+                ],
+                "PenColor": "White"
+              },
+              "StartPositionMatrix": 2,
+              "StartPositionX": 1,
+              "StartPositionY": 1,
+              "ContainerId": "90b5c86b-7d76-46b1-8b90-465b67de9d16",
+              "ContainerType": "AnimationContainer",
+              "Description": "Hand drawn animation/pattern",
+              "IsEnabled": true,
+              "DeviceKind": 2
+            }
+          ],
+          "StartPositionMatrix": 1,
+          "ContainerId": "fdc8b849-6382-4f7b-95b6-23611c214960",
+          "ContainerType": "CustomConditionalGroupContainer",
+          "Description": "Checkered Flag",
+          "IsEnabled": true,
+          "DeviceKind": 2
+        }
+      ],
+      "StartPositionMatrix": 1,
+      "ContainerId": "c2d50d93-f2da-46d6-abea-78184dbee2ba",
+      "ContainerType": "GameRunningGroupContainer",
+      "Description": "Enable content if the game is running",
+      "IsEnabled": true,
+      "DeviceKind": 2
+    }
+  ],
+  "GlobalBrightness": 50.0,
+  "GlobalBrightnessPreset": {
+    "CurrentMode": 0,
+    "Brightness": 50.0,
+    "BrightnessSettings": {
+      "Day": 50.0,
+      "Night": 50.0
+    }
+  },
+  "UseProfileBrightness": false,
+  "DeviceKind": 2,
+  "LastLoaded": "0001-01-01T00:00:00",
+  "Name": "Default Profile",
+  "ProfileId": "f12ee790-9316-4e91-8d29-387515862373",
+  "GameCode": null,
+  "CarChoice": null
+}

@@ -1,0 +1,165 @@
+{
+  "TestLedsGameData": {
+    "GearEx": 0,
+    "FuelMax": 100.0,
+    "RPMSMax": 10000.0,
+    "TurboMax": 3.5,
+    "TurnIndicatorLeftEnabled": false,
+    "TurnIndicatorRightEnabled": false,
+    "SessionBestDeltaEx": 0.0,
+    "AllTimeBestDeltaEx": 0.0,
+    "DRSEnabled": false,
+    "DRSAvailable": false,
+    "MaxRpm": 10000.0,
+    "GameRunning": false,
+    "GameName": null,
+    "FuelPercent": 0.0,
+    "Fuel": 0.0,
+    "RPMPercent": 0.0,
+    "RPMRedlineReached": false,
+    "SpeedKmh": 0.0,
+    "SpeedMph": 0.0,
+    "Turbo": 0.0,
+    "TurboPercent": 0.0,
+    "Gear": "N",
+    "IsInPitLane": false,
+    "PitLimiterOn": false,
+    "AbsEnabled": false,
+    "AbsActive": false,
+    "TCEnabled": false,
+    "TCActive": false,
+    "LowFuelAlert": false,
+    "SpotterCarLeft": false,
+    "SpotterCarRight": false,
+    "BlackFlag": false,
+    "YellowFlag": false,
+    "WhiteFlag": false,
+    "BlueFlag": false,
+    "GreenFlag": false,
+    "CarModel": null,
+    "CarStartedTime": "0001-01-01T00:00:00",
+    "SessionBestDelta": 0.0,
+    "AllTimeBestDelta": 0.0
+  },
+  "AutomaticSwitch": false,
+  "LedContainers": [
+    {
+      "StartColor": "0, 128, 0",
+      "EndColor": "0, 128, 0",
+      "MaximumValue": 60.0,
+      "MinimumValue": 25.0,
+      "BlinkFormula": {
+        "Expression": ""
+      },
+      "EnabledFormula": {
+        "Expression": ""
+      },
+      "ValueFormula": {
+        "Expression": "[CarSettings_CurrentDisplayedRPMPercent]"
+      },
+      "LedCount": 8,
+      "RightToLeft": false,
+      "GradientOnAll": false,
+      "ClearWhenOut": false,
+      "UseLedDimming": true,
+      "FillAllLeds": false,
+      "BlinkDelay": 500,
+      "BlinkEnabled": false,
+      "StartPosition": 1,
+      "ContainerId": "6a11666a-00cc-4b31-a866-bfa127a43494",
+      "ContainerType": "CustomGradientContainer",
+      "Description": "LED 1-8",
+      "IsEnabled": true
+    },
+    {
+      "StartColor": "255, 255, 0",
+      "EndColor": "255, 255, 0",
+      "MaximumValue": 75.0,
+      "MinimumValue": 61.0,
+      "BlinkFormula": {
+        "Expression": ""
+      },
+      "EnabledFormula": {
+        "Expression": ""
+      },
+      "ValueFormula": {
+        "Expression": "[CarSettings_CurrentDisplayedRPMPercent]"
+      },
+      "LedCount": 4,
+      "RightToLeft": false,
+      "GradientOnAll": false,
+      "ClearWhenOut": false,
+      "UseLedDimming": true,
+      "FillAllLeds": false,
+      "BlinkDelay": 500,
+      "BlinkEnabled": false,
+      "StartPosition": 9,
+      "ContainerId": "1afd5831-e86d-4745-9925-d37bcaa3880f",
+      "ContainerType": "CustomGradientContainer",
+      "Description": "LED 9-12",
+      "IsEnabled": true
+    },
+    {
+      "StartColor": "255, 0, 0",
+      "EndColor": "255, 0, 0",
+      "MaximumValue": 100.0,
+      "MinimumValue": 76.0,
+      "BlinkFormula": {
+        "Expression": ""
+      },
+      "EnabledFormula": {
+        "Expression": ""
+      },
+      "ValueFormula": {
+        "Expression": "[CarSettings_CurrentDisplayedRPMPercent]"
+      },
+      "LedCount": 4,
+      "RightToLeft": false,
+      "GradientOnAll": false,
+      "ClearWhenOut": false,
+      "UseLedDimming": true,
+      "FillAllLeds": false,
+      "BlinkDelay": 500,
+      "BlinkEnabled": false,
+      "StartPosition": 13,
+      "ContainerId": "c78a4553-b1d5-4d99-b7e1-8884b48f301d",
+      "ContainerType": "CustomGradientContainer",
+      "Description": "LED 13-16",
+      "IsEnabled": true
+    },
+    {
+      "LedCount": 16,
+      "Color": "0, 0, 255",
+      "BlinkEnabled": true,
+      "BlinkDelay": 200,
+      "DualBlinkTimingEnabled": false,
+      "OffDelay": 750,
+      "OnDelay": 125,
+      "StartPosition": 1,
+      "ContainerId": "a94b7224-96ff-48f0-ad7e-84b159e1d0a3",
+      "ContainerType": "RedlineReachedContainer",
+      "Description": "Generates a static color when the redline is reached",
+      "IsEnabled": true
+    },
+    {
+      "LedCount": 16,
+      "Color": "138, 43, 226",
+      "BlinkEnabled": true,
+      "BlinkDelay": 250,
+      "DualBlinkTimingEnabled": false,
+      "OffDelay": 750,
+      "OnDelay": 125,
+      "StartPosition": 1,
+      "ContainerId": "2831bea7-974f-4149-ae54-02a68161629a",
+      "ContainerType": "SpeedLimiterContainer",
+      "Description": "Generates a static color when the speed limiter is ON",
+      "IsEnabled": true
+    }
+  ],
+  "GameCode": "IRacing",
+  "LastLoaded": "2021-03-22T10:37:30.089302-04:00",
+  "Name": "16 LED RPMs",
+  "ProfileId": "8ec370da-3197-45a8-b26d-6b7e316a24ac",
+  "GlobalBrightness": 50.0,
+  "UseProfileBrightness": false
+}

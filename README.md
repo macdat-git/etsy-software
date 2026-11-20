@@ -6,11 +6,10 @@ Find your product below and follow the instructions in its folder.
 
 | Product | Folder | Downloads |
 |---|---|---|
-| Flag Box | [flag-box](flag-box/) | [Releases](https://github.com/macdat-git/etsy-software/releases?q=flag-box) |
-| 4 inch DDU | [ddu-4inch](ddu-4inch/) | [Releases](https://github.com/macdat-git/etsy-software/releases?q=ddu-4inch) |
-| 5 inch DDU | [ddu-5inch](ddu-5inch/) | [Releases](https://github.com/macdat-git/etsy-software/releases?q=ddu-5inch) |
-| 7.8 inch DDU | [ddu-7.8inch](ddu-7.8inch/) | [Releases](https://github.com/macdat-git/etsy-software/releases?q=ddu-7.8inch) |
+| Sim Racing Flag Box | [flag-box](flag-box/) | [Releases](https://github.com/macdat-git/etsy-software/releases?q=flag-box) |
 | 7.8 inch DDU with LEDs | [ddu-7.8inch-leds](ddu-7.8inch-leds/) | [Releases](https://github.com/macdat-git/etsy-software/releases?q=ddu-7.8inch-leds) |
+
+All products need the latest version of [SimHub](https://www.simhubdash.com/) on a Windows PC.
 
 ## Downloading
 
